@@ -5,4 +5,9 @@ D Power flag, ground
 K power-flag
 $ENDCMP
 #
+$CMP GNDA
+D Power flag, analog ground
+K power-flag
+$ENDCMP
+#
 #End Doc Library
