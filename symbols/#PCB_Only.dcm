@@ -18,4 +18,10 @@ K Solder Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 #End Doc Library
