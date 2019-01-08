@@ -1,4 +1,4 @@
-(module QFN42L (layer F.Cu) (tedit 5C33BC33)
+(module QFN42L locked (layer F.Cu) (tedit 5C34942E)
   (fp_text reference IC1 (at 0 0) (layer F.Fab)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
@@ -82,7 +82,7 @@
   (pad 11 smd circle (at -4.175 3.75) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd circle (at -4.68 3.5) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad OA2 smd custom (at 3.88 -2.86) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -90,7 +90,7 @@
          (xy -0.92 -1.04)) (width 0))
     ))
   (pad OA1 smd custom (at 1.67 -3.31) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -98,7 +98,7 @@
          (xy -0.99 -1.49)) (width 0))
     ))
   (pad OB1 smd custom (at -3.88 -2.86) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -106,7 +106,7 @@
          (xy -0.925 -0.84)) (width 0))
     ))
   (pad OB2 smd custom (at -1.67 -3.31) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -114,7 +114,7 @@
          (xy -0.99 -0.59)) (width 0))
     ))
   (pad VM smd custom (at 0 0.28) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
