@@ -24,4 +24,10 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP Thermocouple
+D Thermocouple
+K thermocouple temperature sensor cold junction
+F ~
+$ENDCMP
+#
 #End Doc Library

@@ -4,4 +4,9 @@ $CMP MAX6675
 D MAX6675, Thermocouple Converter
 $ENDCMP
 #
+$CMP MCP4651
+D Digital potentiometer, 256 position, dual output, I2C interface
+K digital potentiometer
+$ENDCMP
+#
 #End Doc Library
