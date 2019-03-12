@@ -5,4 +5,35 @@ D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
 #
+$CMP MP2459
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP MP6901
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP NCP3404
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP SF5877
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP SF5887
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP Transformer_2P_1S
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+F ~
+$ENDCMP
+#
 #End Doc Library
