@@ -15,7 +15,7 @@ D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
 #
-$CMP NCP3404
+$CMP NCP4304
 D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
