@@ -30,6 +30,11 @@ D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
 #
+$CMP SY8303
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
 $CMP Transformer_2P_1S
 D Transformer, single primary, dual secondary
 K transformer coil magnet
