@@ -1,4 +1,4 @@
-(module SOT-23 (layer F.Cu) (tedit 5C33293C)
+(module SOT-23 (layer F.Cu) (tedit 5E483199)
   (descr "SOT-23, Standard")
   (tags SOT-23)
   (attr smd)
@@ -27,9 +27,9 @@
   (fp_line (start -0.7 -1.3) (end -0.7 -1.52) (layer F.SilkS) (width 0.1))
   (fp_line (start 0.7 -1.52) (end 0.7 1.55) (layer F.Fab) (width 0.1))
   (fp_line (start -0.7 -1) (end -0.7 1.55) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -1 -0.95) (size 0.7 0.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1 0.95) (size 0.7 0.6) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1 0) (size 0.7 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.1 -0.95) (size 0.9 0.65) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.1 0.95) (size 0.9 0.65) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 1.1 0) (size 0.9 0.65) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
