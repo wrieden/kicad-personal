@@ -4,19 +4,16 @@ EESchema-LIBRARY Version 2.4
 # C
 #
 DEF C C 0 10 N N 1 F N
-F0 "C" 10 70 25 H V L CNN
-F1 "C" 10 -80 50 H V L CNN
+F0 "C" 70 75 25 H V L CNN
+F1 "C" 70 0 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" 0 0 25 H V C CNN "Voltage"
-F5 "" 0 0 25 H V C CNN "Class"
-F6 "" 0 0 25 H V C CNN "ESR"
-F7 "" 0 0 25 H V C CNN "Comments"
+F4 "-" 70 -75 25 H V L CNN "Type"
 $FPLIST
  C_*
 $ENDFPLIST
 DRAW
-P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 150 130 D 50 50 1 1 P
 X ~ 2 0 -150 130 U 50 50 1 1 P
@@ -26,10 +23,11 @@ ENDDEF
 # D
 #
 DEF D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
+F0 "D" 0 100 25 H V C CNN
 F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -48,10 +46,11 @@ ENDDEF
 # D_Schottky
 #
 DEF D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
+F0 "D" 0 100 25 H V C CNN
 F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -70,10 +69,11 @@ ENDDEF
 # D_Zener
 #
 DEF D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
+F0 "D" 0 100 25 H V C CNN
 F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -89,13 +89,14 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead_Small
+# FB
 #
-DEF Ferrite_Bead_Small FB 0 0 N Y 1 F N
-F0 "FB" 75 50 50 H V L CNN
-F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
+DEF FB FB 0 0 N Y 1 F N
+F0 "FB" 75 50 25 H V L CNN
+F1 "FB" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  Inductor_*
  L_*
@@ -113,10 +114,11 @@ ENDDEF
 # L
 #
 DEF L L 0 40 N N 1 F N
-F0 "L" -50 0 50 V V C CNN
+F0 "L" -50 0 25 V V C CNN
 F1 "L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  Choke_*
  *Coil*
@@ -140,10 +142,7 @@ F0 "R" 80 0 25 V V C CNN
 F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" 0 0 25 H V C CNN "Voltage"
-F5 "" 0 0 25 H V C CNN "Wattage"
-F6 "" 0 0 25 H V C CNN "Precision"
-F7 "" 0 0 25 H V C CNN "Comments"
+F4 "-" 0 0 25 H V C CNN "Type"
 $FPLIST
  R_*
 $ENDFPLIST

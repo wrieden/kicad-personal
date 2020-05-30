@@ -24,7 +24,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP Ferrite_Bead_Small
+$CMP FB
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
 F ~
