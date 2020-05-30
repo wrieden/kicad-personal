@@ -6,6 +6,36 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
 $CMP R
 D Resistor
 K R res resistor
