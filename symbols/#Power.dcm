@@ -1,5 +1,40 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +VBAT
+D Power symbol creates a global label with name "+VBAT"
+K power-flag
+$ENDCMP
+#
+$CMP +VDRIVER
+D Power symbol creates a global label with name "+VDRIVER"
+K power-flag
+$ENDCMP
+#
+$CMP +VM
+D Power symbol creates a global label with name "+VM"
+K power-flag
+$ENDCMP
+#
+$CMP +VREF
+D Power symbol creates a global label with name "+VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +VUSB
+D Power symbol creates a global label with name "+VUSB"
+K power-flag
+$ENDCMP
+#
+$CMP -VM
+D Power symbol creates a global label with name "-VM"
+K power-flag
+$ENDCMP
+#
+$CMP -VUSB
+D Power symbol creates a global label with name "-VUSB"
+K power-flag
+$ENDCMP
+#
 $CMP GND
 D Power flag, ground
 K power-flag

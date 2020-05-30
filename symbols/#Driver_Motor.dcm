@@ -1,3 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRV8320RS
+D 60V Three-Phase Smart Gate Driver With Buck Regulator
+F http://www.ti.com/lit/gpn/drv8320r
+$ENDCMP
+#
+$CMP DRV8320S
+D 60V Three-Phase Smart Gate Driver With Buck Regulator
+F http://www.ti.com/lit/gpn/drv8320r
+$ENDCMP
+#
+$CMP MD1820K6-G
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005767A.pdf
+$ENDCMP
+#
+$CMP NCP81075
+D High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
+$ENDCMP
+#
 #End Doc Library

@@ -5,6 +5,12 @@ D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
 #
+$CMP MAX17502
+D 4.5V–60V, 1A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-12
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17572.pdf
+$ENDCMP
+#
 $CMP MP2459
 D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
@@ -13,6 +19,12 @@ $ENDCMP
 $CMP MP6901
 D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+$CMP NCP167AMX
+D 700 mA low noise VLDO
+K Single Output LDO
+F https://www.mouser.de/datasheet/2/308/NCP167-D-1522653.pdf
 $ENDCMP
 #
 $CMP NCP4304
