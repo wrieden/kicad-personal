@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G474RET6
+D ARM Microcontrollers - MCU
+F https://componentsearchengine.com//STM32G474RET6.pdf
+$ENDCMP
+#
+#End Doc Library
