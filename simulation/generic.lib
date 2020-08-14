@@ -1,0 +1,4 @@
+.subckt DiffProbe in+ in- out out2
+Emeas out 0 in+ in- 1
+R1 in- out2 1e15
+.ends
