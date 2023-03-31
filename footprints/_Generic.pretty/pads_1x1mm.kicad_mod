@@ -1,0 +1,9 @@
+(module pads_1x1mm (layer F.Cu) (tedit 5F8BF234)
+  (fp_text reference REF** (at 0 0.2) (layer F.Fab) hide
+    (effects (font (size 0.3 0.4) (thickness 0.075)))
+  )
+  (fp_text value pads_1x1mm (at 0 -0.2) (layer F.Fab) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (pad 1 smd circle (at 0 0) (size 0.75 0.75) (layers F.Cu F.Paste F.Mask))
+)

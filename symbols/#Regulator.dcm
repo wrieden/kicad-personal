@@ -5,6 +5,11 @@ D Simple Switcher Buck Regulator
 K simple-switcher buck step-down voltage-regulator
 $ENDCMP
 #
+$CMP JW5026
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
 $CMP MAX17502
 D 4.5V–60V, 1A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-12
 K Step-down dc-dc switching regulator

@@ -36,6 +36,12 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP Q_NMOS_DDGSDDDS
+D N-MOSFET transistor, source/gate/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP R
 D Resistor
 K R res resistor
